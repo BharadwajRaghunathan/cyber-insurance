@@ -68,7 +68,7 @@ const AboutSection = () => {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-cyber-50 to-cyber-100 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-cyber-50 to-white rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Trusted by Financial Institutions</h3>
               <p className="text-gray-700 text-lg mb-6">
                 67% of consumers consider financial institutions credible distributors for cyber protection services.
@@ -85,9 +85,9 @@ const AboutSection = () => {
               </div>
             </div>
 
-            <div className="card bg-cyber-600 text-white">
-              <h3 className="text-xl font-bold mb-2">Most Valuable Brands Trust Us</h3>
-              <p className="text-cyber-100">
+            <div className="card bg-cyber-50 border border-cyber-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Most Valuable Brands Trust Us</h3>
+              <p className="text-gray-700">
                 We partner with leading financial institutions and brands worldwide to deliver comprehensive cyber protection solutions.
               </p>
             </div>

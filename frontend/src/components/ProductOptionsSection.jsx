@@ -89,8 +89,15 @@ const ProductOptionsSection = () => {
             >
               {plan.badge && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-cyber-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                    {plan.badge}
+                  <span className="bg-cyber-600 text-white px-4 py-1 rounded-full text-sm font-semibold leading-snug text-center inline-flex flex-col">
+                    {plan.badge === 'Maximum Protection' ? (
+                      <>
+                        <span>Maximum</span>
+                        <span>Protection</span>
+                      </>
+                    ) : (
+                      plan.badge
+                    )}
                   </span>
                 </div>
               )}

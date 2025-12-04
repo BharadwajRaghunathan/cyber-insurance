@@ -41,7 +41,7 @@ const FeaturesSection = () => {
       title: 'PROTECT',
       subtitle: 'Financial indemnity against cybercrime losses',
       icon: '💰',
-      color: 'from-green-500 to-green-600',
+      color: 'from-blue-500 to-blue-600',
       items: [
         {
           category: 'Identity Theft Coverage',
@@ -77,7 +77,7 @@ const FeaturesSection = () => {
       title: 'SUPPORT',
       subtitle: 'Expert help when incidents occur',
       icon: '🎧',
-      color: 'from-purple-500 to-purple-600',
+      color: 'from-blue-500 to-blue-600',
       items: [
         {
           category: '24/7 Cyber Assistance',
