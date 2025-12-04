@@ -90,21 +90,17 @@ const HeroSection = () => {
             <div className="relative">
               <div className="bg-white rounded-2xl p-8 border border-cyber-100 shadow-md">
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-cyber-50 rounded-lg p-4 text-center">
-                    <div className="text-4xl mb-2">🛡️</div>
-                    <div className="text-sm font-semibold text-gray-800">Protection</div>
+                  <div className="bg-cyber-50 rounded-lg p-8 text-center flex items-center justify-center h-32">
+                    <div className="text-2xl font-bold text-gray-800">Protection</div>
                   </div>
-                  <div className="bg-cyber-50 rounded-lg p-4 text-center">
-                    <div className="text-4xl mb-2">🔒</div>
-                    <div className="text-sm font-semibold text-gray-800">Security</div>
+                  <div className="bg-cyber-50 rounded-lg p-8 text-center flex items-center justify-center h-32">
+                    <div className="text-2xl font-bold text-gray-800">Security</div>
                   </div>
-                  <div className="bg-cyber-50 rounded-lg p-4 text-center">
-                    <div className="text-4xl mb-2">📊</div>
-                    <div className="text-sm font-semibold text-gray-800">Monitoring</div>
+                  <div className="bg-cyber-50 rounded-lg p-8 text-center flex items-center justify-center h-32">
+                    <div className="text-2xl font-bold text-gray-800">Monitoring</div>
                   </div>
-                  <div className="bg-cyber-50 rounded-lg p-4 text-center">
-                    <div className="text-4xl mb-2">💼</div>
-                    <div className="text-sm font-semibold text-gray-800">Support</div>
+                  <div className="bg-cyber-50 rounded-lg p-8 text-center flex items-center justify-center h-32">
+                    <div className="text-2xl font-bold text-gray-800">Support</div>
                   </div>
                 </div>
               </div>
