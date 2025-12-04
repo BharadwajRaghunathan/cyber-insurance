@@ -39,7 +39,7 @@ const IndividualDetailsStep = ({ formData, onNext, onBack, updateFormData }) => 
   }
 
   const countries = [
-    'Bahrain', 'Saudi Arabia', 'UAE', 'Kuwait', 'Qatar', 'Oman', 'Other'
+    'Bahrain', 'Saudi Arabia', 'UAE', 'Kuwait', 'Qatar', 'Oman', 'Lebanon', 'Other'
   ]
 
   return (
