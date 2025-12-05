@@ -47,7 +47,7 @@ const Navbar = () => {
           >
             <img src={logo} alt="ShieldForce Logo" className="h-10 w-auto" />
             <span className="text-xl font-bold text-gray-900 hidden sm:block">
-              CyberShield Insurance
+              Cyber Shield
             </span>
           </button>
 

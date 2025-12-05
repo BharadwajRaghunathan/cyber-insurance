@@ -17,7 +17,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-              CyberShield Insurance for Your Digital Life
+              Cyber Shield for Your Digital Life
             </h1>
             <p className="text-lg lg:text-2xl text-gray-600 mb-8 leading-relaxed">
               Stay safe in an increasingly connected world. Protect your identity, finances, and peace of mind with comprehensive cyber insurance.
