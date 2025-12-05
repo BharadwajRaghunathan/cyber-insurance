@@ -1,3 +1,5 @@
+import logo from '../logo2.png'
+
 const Footer = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
@@ -13,15 +15,13 @@ const Footer = () => {
           {/* Left */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-cyber-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">CS</span>
-              </div>
+              <img src={logo} alt="Cyber Shield Logo" className="h-10 w-auto" />
               <span className="text-lg font-bold text-gray-900">
-                CyberShield Insurance
+                Cyber Shield
               </span>
             </div>
             <p className="text-sm text-gray-500">
-              © 2025 CyberShield Insurance. All rights reserved.
+              © 2025 Cyber Shield. All rights reserved.
             </p>
           </div>
 
@@ -62,16 +62,16 @@ const Footer = () => {
           <div>
             <h3 className="text-gray-900 font-semibold mb-4">Disclaimer</h3>
             <p className="text-xs text-gray-500">
-              This is a product information page. Coverage, limits, and pricing are illustrative and based on CyberShield Insurance materials. Final terms may differ.
+              This is a product information page. Coverage, limits, and pricing are illustrative and based on Cyber Shield materials. Final terms may differ.
             </p>
           </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-400">
-          <p>All rights reserved. CyberShield Insurance.</p>
+          <p>All rights reserved. Cyber Shield.</p>
         </div>
       </div>
-    </footer>
+    </footer >
   )
 }
 

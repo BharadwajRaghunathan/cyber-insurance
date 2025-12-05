@@ -11,7 +11,7 @@ const AboutSection = () => {
       >
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            About CyberShield Insurance
+            About Cyber Shield
           </h2>
           <div className="w-24 h-1 bg-cyber-600 mx-auto"></div>
         </div>
